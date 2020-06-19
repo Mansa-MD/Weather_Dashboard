@@ -1,7 +1,7 @@
 const apiKey = "9b0815135083da452746e13eca218c08";
-var currWeatherDiv = $("#currentWeather");
-var forecastDiv = $("#weatherForecast");
-var citiesArray;
+let currWeatherDiv = $("#currentWeather");
+let forecastDiv = $("#weatherForecast");
+let citiesArray;
 
 if (localStorage.getItem("localWeatherSearches")) {
     citiesArray = JSON.parse(localStorage.getItem("localWeatherSearches"));
@@ -85,8 +85,8 @@ function returnUVIndex(coordinates) {
 
 function createHistoryButton(cityName) {
     // Check if the button exists in history, and if it does, exit the function
-    var citySearch = cityName.trim();
-    var buttonCheck = $(`#previousSearch > BUTTON[value='${citySearch}']`);
+    let citySearch = cityName.trim();
+    let buttonCheck = $(`#previousSearch > BUTTON[value='${citySearch}']`);
     if (buttonCheck.length == 1) {
       return;
     }
