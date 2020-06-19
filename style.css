@@ -1,11 +1,29 @@
-.searchColumn {
-  background-color: #eee;
+body {
+  background-color: whitesmoke;
 }
+
+.searchColumn {
+  background-color: rgb(189, 178, 178);
+}
+
+.navbar {
+  background-color: #3f3e3e;
+}
+
+.navbar-brand {
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
 
 h2, h3 {
   padding-top: 10px;
   font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
 }
+
+
 
 h4 {
   font-weight: 600;
@@ -36,6 +54,7 @@ h4 {
 .card-body {
   padding: 0.75rem;
   padding-bottom: 0;
+  
 }
 
 #currentWeather {
@@ -43,6 +62,7 @@ h4 {
   border-radius: 0.3rem;
   margin: 15px 0 15px 0;
   padding: 15px;
+  background-color: rgb(189, 178, 178);
 }
 
 #previousSearch {
