@@ -43,7 +43,7 @@ function returnWeatherForecast(cityName) {
 
             forecastDiv.append(`
             <div class="col-md">
-                <div class="card text-white bg-primary">
+                <div class="card text-black bg shadow-lg">
                     <div class="card-body">
                         <h4>${forecastDate.getMonth()+1}/${forecastDate.getDate()}/${forecastDate.getFullYear()}</h4>
                         <img src=${weatherIcon} alt="Icon">
