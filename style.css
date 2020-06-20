@@ -10,12 +10,13 @@ body {
   background-color: #5e5656;
 }
 
+/* Weather Dashboard Banner Typography */
 .navbar-brand {
   font-family: 'Anton', sans-serif;
   font-size: 30px;
 }
 
-
+/* Search Aisle, Current Weather, 5-Day Forecast Typography and Spacing */
 h2, h3 {
   padding-top: 10px;
   font-weight: 600;
